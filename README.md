@@ -1,88 +1,127 @@
-# MERN-STACK-CAFE-BREW
+# 🍽️ CAFE-BREW
 
-This is a full-stack **CAFE-BREW** built with the **MERN** stack (MongoDB, Express.js, React.js, Node.js). This project allows customers to book tables online and helps restaurant staff manage reservations efficiently.
+Welcome to the **CAFE-BREW**! This full-stack application allows customers to browse cafe, make reservations, and manage their bookings, while providing cafe admins with a comprehensive dashboard to oversee operations.
 
----
+## 🛠️ Features
 
-## Features
+* **Customer Interface**: Browse cafe, view details, and make reservations.
+* **Admin Dashboard**: Manage cafe information and monitor reservations.
+* **Real-Time Updates**: Instant updates for reservation status changes.
+* **Responsive Design**: Optimized for both desktop and mobile devices.
 
-- User-friendly interface for making, updating, and canceling table reservations.
-- Admin dashboard to manage reservations and monitor table availability.
-- Real-time updates on reservation status.
-- Responsive design to support desktop and mobile devices.
-- Secure authentication and validation.
+## 🧱 Technologies Used
 
----
+* **Frontend**: React.js, Axios, React Router
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB
+* **Authentication**: JWT (JSON Web Tokens)
+* **Styling**: CSS, Bootstrap
 
-## Technologies Used
+## 📂 Project Structure
 
-- **Frontend:** React.js, HTML5, CSS3, JavaScript
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Others:** Axios for API calls, JWT for authentication, dotenv for environment variables
-
----
-
-## Project Structure
-
-Grocery_Web-App/
-├── backend/                  # Backend server code (Node.js + Express)
-│   ├── server.js             # Main server file to start the Express server
-│   ├── package.json          # Backend dependencies and scripts
-│   └── package-lock.json     # Backend dependency lock file
+```
+CAFE_BREW/
+├── backend/                   # Backend server code
+│   ├── config/                # Configuration files
+│   ├── controllers/           # API controllers
+│   ├── models/                # Mongoose models
+│   ├── routes/                # Express routes
+│   ├── middleware/            # Middleware functions
+│   ├── utils/                 # Utility functions
+│   ├── app.js                 # Express app entry point
+│   └── .env                   # Environment variables
 │
-├── frontend/                 # Frontend application (Angular)
-│   ├── src/                  # Source code for the Angular application
-│   ├── angular.json          # Angular project configuration
-│   ├── package.json          # Frontend dependencies and scripts
-│   └── package-lock.json     # Frontend dependency lock file
+├── frontend/                  # React.js frontend code
+│   ├── public/                # Public assets
+│   ├── src/                   # React source code
+│   │   ├── components/        # React components
+│   │   ├── pages/             # React pages
+│   │   ├── context/           # React context
+│   │   ├── hooks/             # Custom React hooks
+│   │   ├── services/          # API service calls
+│   │   ├── utils/             # Utility functions
+│   │   ├── App.js             # Main React app component
+│   │   └── index.js           # React DOM render entry
+│   └── package.json           # Frontend dependencies
 │
-├── assets/                   # Static assets (images, styles, etc.)
-│   ├── images/               # Image files used in the application
-│   └── styles/               # CSS or SCSS files
-│
-├── docs/                     # Documentation files
-│   ├── Grocery_WebApp_Documentation.docx  # Project documentation
-│   └── git-clone.mp4         # Video tutorial for cloning the repository
-│
-├── index.html                # Main HTML file for the application
-├── about.html                # About page
-├── contact.html              # Contact page
-├── login.html                # Login page
-├── signup.html               # Signup page
-├── orderDetails.html         # Order details page
-├── Products.html             # Products listing page
-├── entry.html                # Entry point or landing page
-├── dependencies_list.txt     # List of project dependencies
-├── npm_install_command.txt   # Instructions for installing dependencies
-├── garment_management.sql    # SQL file for garment management (possibly related to the project)
-├── LICENSE                   # License information
-└── README.md                 # Project overview and setup instructions
+├── .gitignore                 # Git ignore rules
+├── README.md                  # Project documentation
+└── LICENSE                    # License information
+```
+
+## 🚀 Installation
+
+To run this project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Zeeshu911/MERN_STACK_RESTAURANT_RESERVATION.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd MERN_STACK_RESTAURANT_RESERVATION
+   ```
+
+3. Set up the backend:
+
+   * Navigate to the `backend` folder:
+
+     ```bash
+     cd backend
+     ```
+
+   * Create a `.env` file and add the following variables:
+
+     ```
+     PORT=5000
+     MONGO_URI=your_mongodb_connection_string
+     FRONTEND_URL=http://localhost:3000
+     ```
+
+   * Install dependencies:
+
+     ```bash
+     npm install
+     ```
+
+   * Start the backend server:
+
+     ```bash
+     npm start
+     ```
+
+4. Set up the frontend:
+
+   * Open a new terminal window and navigate to the `frontend` folder:
+
+     ```bash
+     cd frontend
+     ```
+
+   * Install dependencies:
+
+     ```bash
+     npm install
+     ```
+
+   * Start the frontend development server:
+
+     ```bash
+     npm start
+     ```
+
+5. Open your browser and go to `http://localhost:3000` to view the application.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve the project, please fork the repository, create a new branch, and submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
 
 ---
 
-## Setup & Run Locally
-
-# 1. Clone the repo
-git clone https://github.com/uborkar/Grocery_Web-App.git
-
-# 2. Navigate to project directory
-cd Grocery_Web-App
-
-# 3. Install dependencies
-npm install
-
-# 4. Start backend server
-node server.js
-
-# 5. Run With Live Server
-vs code open with live server
-
----
-
-## Team Members
-
-Nikita Mane
-Vaishali Jadhav
-Soheb Mujawar
-Anushri Patil
