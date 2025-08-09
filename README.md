@@ -115,18 +115,15 @@ To run this project locally:
 
 5. Open your browser and go to `http://localhost:3000` to view the application.
 
-👥 Team Members
-Nikita Mane
+## 👥 Team Members
 
-Vaishali Jadhav
-
-Anushri Patil
-
-Soheb Mujawar 
+* Nikita Mane
+* Vaishali Jadhav
+* Anushri Patil
+* Soheb Mujawar
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
-
