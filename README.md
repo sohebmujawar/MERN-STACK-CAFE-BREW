@@ -115,9 +115,14 @@ To run this project locally:
 
 5. Open your browser and go to `http://localhost:3000` to view the application.
 
-## 🤝 Contributing
+👥 Team Members
+Nikita Mane
 
-Contributions are welcome! If you'd like to improve the project, please fork the repository, create a new branch, and submit a pull request.
+Vaishali Jadhav
+
+Anushri Patil
+
+Soheb Mujawar 
 
 ## 📄 License
 
