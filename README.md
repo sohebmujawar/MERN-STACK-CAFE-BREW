@@ -1,6 +1,6 @@
-# 🍽️ CAFE-BREW
+# 🍽️ MERN-STACK-CAFE-BREW
 
-Welcome to the **CAFE-BREW**! This full-stack application allows customers to browse cafe, make reservations, and manage their bookings, while providing cafe admins with a comprehensive dashboard to oversee operations.
+Welcome to the **MERN-STACK-CAFE-BREW**! This full-stack application allows customers to browse cafe, make reservations, and manage their bookings, while providing cafe admins with a comprehensive dashboard to oversee operations.
 
 ## 🛠️ Features
 
@@ -20,7 +20,7 @@ Welcome to the **CAFE-BREW**! This full-stack application allows customers to br
 ## 📂 Project Structure
 
 ```
-CAFE_BREW/
+MERN-STACK-CAFE-BREW/
 ├── backend/                   # Backend server code
 │   ├── config/                # Configuration files
 │   ├── controllers/           # API controllers
@@ -56,13 +56,13 @@ To run this project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Zeeshu911/MERN_STACK_RESTAURANT_RESERVATION.git
+   git clone https://github.com/sohebmujawar/MERN-STACK-CAFE-BREW.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd MERN_STACK_RESTAURANT_RESERVATION
+   cd MERN-STACK-CAFE-BREW
    ```
 
 3. Set up the backend:
